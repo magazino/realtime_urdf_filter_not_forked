@@ -26,6 +26,10 @@
   <run_depend>image_transport</run_depend>
   <build_depend>libglew-dev</build_depend>
   <run_depend>libglew-dev</run_depend>
+  <build_depend>libassimp-dev</build_depend>
+  <run_depend>libassimp-dev</run_depend>
+  <build_depend>freeglut3-dev</build_depend>
+  <run_depend>freeglut3-dev</run_depend>
 
   <export>
     <nodelet plugin="${prefix}/plugins/nodelet_plugins.xml" />
